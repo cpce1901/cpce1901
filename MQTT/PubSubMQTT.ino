@@ -1,16 +1,17 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
+
 //************************Datos de Wifi***********************//
-const char* ssid = "Jessica_1231";
-const char* password = "167832873";
+const char* ssid = "xxxxxxx";
+const char* password = "xxxxxxxxx";
 
 //************************Datos de Brocker***********************//
 
-const char* mqtt_server = "185.195.98.58"; //node02.myqtthub.com
-const char* Id = "MCUESP8266";
-const char* User = "cpce1901";
-const char* CodePass = "cpce1901";
+const char* mqtt_server = "xxxxxxxxx"; 
+const char* Id = "xxxxxxxx";
+const char* User = "xxxxxxxx";
+const char* CodePass = "xxxxxxxx";
 
 
 WiFiClient espClient;
